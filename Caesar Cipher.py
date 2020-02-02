@@ -2,7 +2,7 @@
 
 
 def cipher_encrypt(txt, k):
-    """ Recieves a text and a key to encrypt the text."""
+    """ Receives a text and a key to encrypt the text."""
     result = ""
 
     for i in range(len(txt)):
@@ -23,7 +23,7 @@ def cipher_encrypt(txt, k):
 
 
 def cipher_decrypt(txt, k):
-    """ Recieves the encrypted text and the key to decrypt the text."""
+    """ Receives the encrypted text and the key to decrypt the text."""
     result = ""
 
     for i in range(len(txt)):
